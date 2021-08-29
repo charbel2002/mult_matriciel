@@ -66,14 +66,14 @@ int main() {
 		
 		if( i == 0){
 			
-			printf("\n\nEntrez les données de la matrice %d",i+1);
+			printf("\n\nEntrez les donnÃ©es de la matrice %d",i+1);
 			
 			for( j = 0 ; j < 3 ; j++ ){
 				
 				printf("\nLigne %d > ",j+1);
 				
 				if( j == 0){
-					scanf("%d %d %d",&a.line_1[0], &a.line_1[1], &a.line_1[2]);
+					scanf("%d %d %d",&a.line_1[0], &a.line_1[1], &a.line_1[2]); //assume the format to provide data is clear right now
 				}
 				
 				if( j == 1){
@@ -90,7 +90,7 @@ int main() {
 		
 		if( i == 1){
 			
-			printf("\n\nEntrez les données de la matrice %d",i+1);
+			printf("\n\nEntrez les donnÃ©es de la matrice %d",i+1);
 			
 			for( j = 0 ; j < 3 ; j++ ){
 				
